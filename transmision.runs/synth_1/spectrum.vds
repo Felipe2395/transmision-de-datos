@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Dec  9 19:03:45 2015
+# Process ID: 31518
+# Log file: /home/csusatama/Documentos/pryectoaudiovivado/transmision/transmision.runs/synth_1/spectrum.vds
+# Journal file: /home/csusatama/Documentos/pryectoaudiovivado/transmision/transmision.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source spectrum.tcl -notrace
+Command: synth_design -top spectrum -part xc7a200tfbg484-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1056.078 ; gain = 140.516 ; free physical = 67 ; free virtual = 1321
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'spectrum' [/home/csusatama/Documentos/pryectoaudiovivado/casm/spectrum-2 (1).v:5]
+	Parameter BAUD bound to: 1250 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'uartresepcion' [/home/csusatama/Documentos/pryectoaudiovivado/casm/uart.v:6]
+	Parameter BAUD bound to: 1250 - type: integer 
+	Parameter IDLE bound to: 2'b00 
+	Parameter RECV bound to: 2'b01 
+	Parameter LOAD bound to: 2'b10 
+	Parameter DAV bound to: 2'b11 
+INFO: [Synth 8-638] synthesizing module 'generadorbaudios' [/home/csusatama/Documentos/pryectoaudiovivado/casm/generadorbaudios.v:8]
+	Parameter M bound to: 1250 - type: integer 
+	Parameter N bound to: 11 - type: integer 
+	Parameter M2 bound to: 625 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'generadorbaudios' (1#1) [/home/csusatama/Documentos/pryectoaudiovivado/casm/generadorbaudios.v:8]
+INFO: [Synth 8-226] default block is never used [/home/csusatama/Documentos/pryectoaudiovivado/casm/uart.v:87]
+INFO: [Synth 8-256] done synthesizing module 'uartresepcion' (2#1) [/home/csusatama/Documentos/pryectoaudiovivado/casm/uart.v:6]
+ERROR: [Synth 8-448] named port connection 'rx' does not exist for instance 'entradablu' of module 'uartresepcion' [/home/csusatama/Documentos/pryectoaudiovivado/casm/spectrum-2 (1).v:30]
+INFO: [Synth 8-638] synthesizing module 'buffer' [/home/csusatama/Documentos/pryectoaudiovivado/casm/buffer.v:2]
+	Parameter BAUD bound to: 1250 - type: integer 
+	Parameter ROMFILE bound to: bufferini.list - type: string 
+	Parameter AW bound to: 4 - type: integer 
+	Parameter DW bound to: 8 - type: integer 
+	Parameter TX_WAIT bound to: 0 - type: integer 
+	Parameter TX_READ bound to: 1 - type: integer 
+	Parameter RX_WAIT bound to: 2 - type: integer 
+	Parameter RX_WRITE bound to: 3 - type: integer 
+ERROR: [Synth 8-3438] module 'crearam' declared at '/home/csusatama/Documentos/pryectoaudiovivado/casm/myram.v:1' does not have any parameter 'ROMFILE' used as named parameter override [/home/csusatama/Documentos/pryectoaudiovivado/casm/buffer.v:20]
+ERROR: [Synth 8-285] failed synthesizing module 'buffer' [/home/csusatama/Documentos/pryectoaudiovivado/casm/buffer.v:2]
+ERROR: [Synth 8-285] failed synthesizing module 'spectrum' [/home/csusatama/Documentos/pryectoaudiovivado/casm/spectrum-2 (1).v:5]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1092.359 ; gain = 176.797 ; free physical = 30 ; free virtual = 1284
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+9 Infos, 0 Warnings, 0 Critical Warnings and 5 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Wed Dec  9 19:03:55 2015...

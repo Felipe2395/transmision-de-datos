@@ -1,0 +1,137 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+vbuffer
+Z0 !s110 1449722363
+!i10b 1
+!s100 OF3K2c51dQJ:UJDPiTIMH2
+IW6h?MOZBfj_<nS_SdUoC[1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Usuario/Desktop/transmision
+w1449698638
+8C:/Users/Usuario/Desktop/transmision/casm/buffer.v
+FC:/Users/Usuario/Desktop/transmision/casm/buffer.v
+L0 2
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1449722363.000000
+!s107 C:/Users/Usuario/Desktop/transmision/casm/buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/transmision/casm/buffer.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vcrearam
+Z6 !s110 1449722364
+!i10b 1
+!s100 9>9L;2ko3P3Gj4]>2CFc80
+IBa]E5oeH>X6i>K;2>?fCB0
+R1
+R2
+w1449695335
+8C:/Users/Usuario/Desktop/transmision/casm/myram.v
+FC:/Users/Usuario/Desktop/transmision/casm/myram.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z7 !s108 1449722364.000000
+!s107 C:/Users/Usuario/Desktop/transmision/casm/myram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/transmision/casm/myram.v|
+!s101 -O0
+!i113 1
+R5
+vdivider
+R0
+!i10b 1
+!s100 F<BS>;5=64om:EJ9WNW`n3
+I>Z`iVZ=`Y5bPY:YT586Uo3
+R1
+R2
+w1449687982
+8C:/Users/Usuario/Desktop/transmision/casm/divisor.v
+FC:/Users/Usuario/Desktop/transmision/casm/divisor.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:\Users\Usuario\Desktop\transmision\casm\divisor.vh|C:/Users/Usuario/Desktop/transmision/casm/divisor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/transmision/casm/divisor.v|
+!s101 -O0
+!i113 1
+R5
+vgeneradorbaudios
+R0
+!i10b 1
+!s100 _mGVzLkl4U[o>PM0=7jIf3
+I?lBzPdh`HXF0h<bB3ldZ91
+R1
+R2
+w1449701026
+8C:/Users/Usuario/Desktop/transmision/casm/generadorbaudios.v
+FC:/Users/Usuario/Desktop/transmision/casm/generadorbaudios.v
+L0 8
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Usuario/Desktop/transmision/casm/generadorbaudios.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/transmision/casm/generadorbaudios.v|
+!s101 -O0
+!i113 1
+R5
+vMemoria
+R6
+!i10b 1
+!s100 <F@^X=??k6d>Dm51I]5[50
+Iem57QHf8]>YXCcP]ie:5X3
+R1
+R2
+w1449464545
+8C:/Users/Usuario/Desktop/transmision/casm/memoria.v
+FC:/Users/Usuario/Desktop/transmision/casm/memoria.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Usuario/Desktop/transmision/casm/memoria.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/transmision/casm/memoria.v|
+!s101 -O0
+!i113 1
+R5
+n@memoria
+vuartresepcion
+R6
+!i10b 1
+!s100 6W?_2zRcRjC@6f6ajE45B3
+I3L4JV43WQWcjBJUaFO1nd3
+R1
+R2
+w1449700420
+8C:/Users/Usuario/Desktop/transmision/casm/uart.v
+FC:/Users/Usuario/Desktop/transmision/casm/uart.v
+L0 6
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Usuario/Desktop/transmision/casm/uart.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Usuario/Desktop/transmision/casm/uart.v|
+!s101 -O0
+!i113 1
+R5

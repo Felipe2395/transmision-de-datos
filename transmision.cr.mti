@@ -1,0 +1,70 @@
+C:/Users/Usuario/Desktop/transmision/casm/myram.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/transmision/casm/myram.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module crearam
+
+Top level modules:
+	crearam
+
+} {} {}} C:/Users/Usuario/Desktop/transmision/casm/memoria.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/transmision/casm/memoria.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Memoria
+
+Top level modules:
+	Memoria
+
+} {} {}} C:/Users/Usuario/Desktop/transmision/casm/generadorbaudios.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/transmision/casm/generadorbaudios.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module generadorbaudios
+
+Top level modules:
+	generadorbaudios
+
+} {} {}} C:/Users/Usuario/Desktop/transmision/casm/buffer.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/transmision/casm/buffer.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module buffer
+
+Top level modules:
+	buffer
+
+} {} {}} C:/Users/Usuario/Desktop/transmision/casm/trasmitir.v {0 {vlog -work work -stats=none C:/Users/Usuario/Desktop/transmision/casm/trasmitir.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module trasmitir
+** Error: C:/Users/Usuario/Desktop/transmision/casm/trasmitir.v(40): (vlog-2730) Undefined variable: 'state'.
+
+** Error: C:/Users/Usuario/Desktop/transmision/casm/trasmitir.v(40): (vlog-2730) Undefined variable: 'IDLE'.
+
+** Error: C:/Users/Usuario/Desktop/transmision/casm/trasmitir.v(93): 'IDLE' already declared in this scope.
+** Error (suppressible): C:/Users/Usuario/Desktop/transmision/casm/trasmitir.v(98): (vlog-2388) 'state' already declared in this scope (trasmitir).
+
+
+} {4.0 5.0 6.0 7.0 8.0 9.0} {}} C:/Users/Usuario/Desktop/transmision/casm/uart.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/transmision/casm/uart.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module uartresepcion
+
+Top level modules:
+	uartresepcion
+
+} {} {}} C:/Users/Usuario/Desktop/transmision/casm/divisor.v {1 {vlog -work work -stats=none C:/Users/Usuario/Desktop/transmision/casm/divisor.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module divider
+
+Top level modules:
+	divider
+
+} {} {}} C:/Users/Usuario/Downloads/control.v {0 {vlog -work work -stats=none C:/Users/Usuario/Downloads/control.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module control
+** Error: (vlog-13069) C:/Users/Usuario/Downloads/control.v(33): near "or": syntax error, unexpected or.
+
+** Error: C:/Users/Usuario/Downloads/control.v(36): (vlog-2730) Undefined variable: 'addr'.
+
+
+} {4.0 5.0 6.0 7.0} {}} C:/Users/Usuario/Desktop/transmision/casm/multiplicador.v {0 {vlog -work work -stats=none C:/Users/Usuario/Desktop/transmision/casm/multiplicador.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module divider
+** Error: C:/Users/Usuario/Desktop/transmision/casm/multiplicador.v(10): (vlog-2730) Undefined variable: 'i'.
+
+** Error: (vlog-13036) C:/Users/Usuario/Desktop/transmision/casm/multiplicador.v(10): near "++": Operator only allowed in SystemVerilog.
+
+
+} {4.0 5.0 6.0 7.0} {}}

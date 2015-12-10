@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a200tfbg484-3" LaunchTime="1449705819">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="RDI-RDI" Name="spectrum.vdi"/>
+  <File Type="BG-DRC" Name="spectrum.drc"/>
+  <File Type="BG-BGN" Name="spectrum.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="spectrum.sysdef"/>
+  <File Type="BITSTR-MMI" Name="spectrum.mmi"/>
+  <File Type="BITSTR-BMM" Name="spectrum_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="spectrum.nky"/>
+  <File Type="BITSTR-RBT" Name="spectrum.rbt"/>
+  <File Type="BITSTR-MSK" Name="spectrum.msk"/>
+  <File Type="BG-BIN" Name="spectrum.bin"/>
+  <File Type="BG-BIT" Name="spectrum.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="spectrum_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="spectrum_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="spectrum_postroute_physopt.dcp"/>
+  <File Type="ROUTE-CLK" Name="spectrum_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="spectrum_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="spectrum_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="spectrum_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="spectrum_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="spectrum_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="spectrum_route_status.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="spectrum_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="spectrum_power_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="spectrum_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="spectrum_drc_routed.rpt"/>
+  <File Type="ROUTE-DCP" Name="spectrum_routed.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="spectrum_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="spectrum_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="spectrum_postplace_pwropt.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="spectrum_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="spectrum_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="spectrum_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="spectrum_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="spectrum_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="spectrum_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="spectrum_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="spectrum_placed.dcp"/>
+  <File Type="PWROPT-DRC" Name="spectrum_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="spectrum_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="spectrum.hwdef"/>
+  <File Type="OPT-DRC" Name="spectrum_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="spectrum_opt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="spectrum_timing_summary_postroute_physopted.pb"/>
+  <File Type="PA-TCL" Name="spectrum.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/impl_1/sources.xml"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../casm/generadorbaudios.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../casm/myram.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../casm/trasmitir.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../casm/uart.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../casm/buffer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../casm/divisor.vh">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../casm/divisor.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../casm/spectrum-2 (1).v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../casm/baudgen.vh">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="spectrum"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
